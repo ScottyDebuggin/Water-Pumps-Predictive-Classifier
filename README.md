@@ -1,4 +1,4 @@
-# Project Title: Pump It Up: Taarifa Tanzania Water Pump Challenge
+# Pump It Up: Taarifa Tanzania Water Pump Challenge
 ## 1. Project Overview:
 ### Introduction
 ### Objectives
