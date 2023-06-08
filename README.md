@@ -1,4 +1,4 @@
-# Project Title: Pump It Up: Taarifa Tanzania Water Pump Challenge
+# Pump It Up: Taarifa Tanzania Water Pump Challenge
 ## 1. Project Overview:
 ### Introduction
 ### Objectives
@@ -36,21 +36,21 @@
 ##### A descriptive analysis was performed to better understand the data, its structure, and key summary statistics.
 ### Data Transformation
 ##### Data transformation was done to convert categorical data into a format that can be used for machine learning models. This involved one-hot encoding and ordinal encoding 
-## 4. Feature Engineering
+## 3. Feature Engineering
 ### Derived Features
 #####  New numerical features were derived from patterns in the existing features to help improve the model's performance.
 ### Feature_importance_
 ##### I coded a block to print the most relevant features from the data, although because I decided on building a Decision Tree model, I didn't manually select important features for ensembling.
-## 5. Model Development
+## 4. Model Development
 ### Decision Tree (DT)
 ##### A Decision Tree model was built as the base model to predict the operational status of water pumps. The data was noisy and the model was likely overfit, so I also built a SMOTE model to adjust re-sampling size of the (DT).
 ### XGBoost
 ##### In addition, an XGBoost model was trained for the same purpose. XGBoost is known for its speed and model performance, and my model blew the (DT) model out of the water, resulting in 91% accuracy!
-## 6. Evaluation and Results
+## 5. Evaluation and Results
 ### Performance Metrics
 ##### The performance of the models was evaluated using accuracy, precision, recall, F1 score, ROC-AUC curve, and a confusion matrix for visualization.
 ##### For the purpose of this project, I'd assume falsely classifying a 'broken' pump as 'functional' would be more harmful, because these water pumps are relied on by the local population for clean water on a daily basis.
-## 7. Conclusions
+## 6. Conclusions
 ### Key Takeaways
 ##### There are many factors that affect a water pumps functionability, but some main features are:
 
